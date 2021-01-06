@@ -14,4 +14,5 @@ ESDL MapEditor features
    wms_services
    shapefile_import
    animation_of_loads
-   external_services
+   configuring_external_services
+   workflow_definition

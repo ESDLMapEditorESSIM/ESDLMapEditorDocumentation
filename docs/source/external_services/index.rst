@@ -11,3 +11,4 @@ External ESDL Services
    pandapower
    pico
    vesta
+   eps
