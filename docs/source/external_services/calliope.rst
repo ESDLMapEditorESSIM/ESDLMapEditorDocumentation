@@ -1,2 +1,3 @@
-Calliope
-========
+Calliope - Spatial optimization
+===============================
+

@@ -5,10 +5,13 @@ ESDL MapEditor features
    :maxdepth: 2
    :caption: Contents:
 
+   boundary_service
    building_information
    building_editor
    visualizing_kpis
    comparing_scenarios
+   notes
    wms_services
+   shapefile_import
    animation_of_loads
    external_services

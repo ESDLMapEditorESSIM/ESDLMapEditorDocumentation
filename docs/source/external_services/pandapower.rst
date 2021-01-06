@@ -1,2 +1,3 @@
-PandaPower
-==========
+PandaPower - Loadflow calculations
+==================================
+
