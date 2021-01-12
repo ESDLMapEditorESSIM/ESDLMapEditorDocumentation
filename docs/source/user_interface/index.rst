@@ -54,6 +54,11 @@ Only for Mondaine project partners (the Mondaine Hub was the predecessor of the 
     "Load ESDL from Mondaine Hub", "Load or import an ESDL file from the Mondaine Hub"
     "Save ESDL to Mondaine Hub", "Save an ESDL file to the Mondaine Hub"
 
+.. note::
+    When you press 'Save ESDL' in the ESDL MapEditor, the behaviour is determined by your local browser settings. Most
+    browsers by default save files in the Downloads folder (on Windows at least). In your browser settings you can
+    specify to ask the user for a file location
+
 Edit menu
 ^^^^^^^^^
 
