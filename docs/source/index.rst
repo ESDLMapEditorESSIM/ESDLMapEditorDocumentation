@@ -8,6 +8,7 @@ Welcome to the ESDL MapEditor documentation
    introduction/index
    user_interface/index
    esdl/index
+   basic_tasks/index
    features/index
    external_services/index
    examples/index

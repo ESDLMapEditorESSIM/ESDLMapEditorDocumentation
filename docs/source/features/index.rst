@@ -5,6 +5,7 @@ ESDL MapEditor features
    :maxdepth: 2
    :caption: Contents:
 
+   asset_draw_toolbar
    boundary_service
    building_information
    building_editor
