@@ -7,6 +7,7 @@ Basic tasks in the ESDL MapEditor
 
    creating_an_energy_system_description
    adding_assets
+   moving_assets
    removing_assets
    connecting_assets
    removing_a_connection

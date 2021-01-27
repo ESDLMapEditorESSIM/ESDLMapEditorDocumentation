@@ -6,6 +6,7 @@ ESDL MapEditor features
    :caption: Contents:
 
    asset_draw_toolbar
+   profile_manager
    boundary_service
    building_information
    building_editor

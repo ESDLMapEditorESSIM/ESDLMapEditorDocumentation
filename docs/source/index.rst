@@ -11,7 +11,7 @@ Welcome to the ESDL MapEditor documentation
    basic_tasks/index
    features/index
    external_services/index
-   examples/index
+   example_workflows/index
    functional_architecture/index
 
 
