@@ -30,6 +30,7 @@ author = 'Edwin Matthijssen, Ewoud Werkman, Lars de Ridder, Thomas Nijman'
 # ones.
 extensions = [
     "sphinx_rtd_theme",
+    "sphinx.ext.autosectionlabel",
 ]
 
 # Add any paths that contain templates here, relative to this directory.

@@ -41,3 +41,4 @@ This workflow can be divided in the following steps:
     :width: 800
     :alt: Wind potential areas in the province of Drenthe
 
+6.

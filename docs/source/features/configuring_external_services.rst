@@ -1,3 +1,3 @@
-External ESDL services
-======================
+Configuring external ESDL services
+==================================
 
