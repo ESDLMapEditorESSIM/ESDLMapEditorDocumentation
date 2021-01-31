@@ -41,4 +41,8 @@ This workflow can be divided in the following steps:
     :width: 800
     :alt: Wind potential areas in the province of Drenthe
 
-6.
+6. One possible option is to select an 'ETM WindTurbine on Land' asset from the Energy Data Repository
+   (see :ref:`Adding assets from the Energy Data Repository` for more information).
+
+  .. image:: images/wind_on_land_from_edr.png
+    :alt: Adding windturbines from the Energy Data Repository
