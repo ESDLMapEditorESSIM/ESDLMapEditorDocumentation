@@ -103,7 +103,12 @@ The last functionality is to convert (part of) the potential to installed capaci
   .. image:: images/use_rooftop_pv_potential.png
     :alt: Use Rooftop PV Potential
 
-3. If you open the building editor again, the result looks like this. By right clicking on an icon for a PV installation and selecting 'Edit' from the menu, values can be inspected (the produced energy is connected as a SingleValue profile to the OutPort of the PVInstallation asset).
+3. If you open the building editor again, the result looks like this. By right clicking on an icon for a PV installation and selecting 'Edit' from the menu, values can be inspected.
 
   .. image:: images/building_editor_installed_pv_installations.png
     :alt: Installed PV installations
+
+.. note::
+    ESDL: The produced energy in kWh is connected as a SingleValue profile to the OutPort of the PVInstallation asset.
+    Other models, like for example the Energy Transition Model, know how to handle this information and are able to
+    take these values into account.
