@@ -1,8 +1,8 @@
 Top level menus
----------------
+===============
 
 File menu
-^^^^^^^^^
+*********
 
 .. csv-table::
     :header: "Menu item", "Description"
@@ -28,7 +28,7 @@ Only for Mondaine project partners (the Mondaine Hub was the predecessor of the 
     specify to ask the user for a file location
 
 Edit menu
-^^^^^^^^^
+*********
 
 .. csv-table::
     :header: "Menu item", "Description"
@@ -39,7 +39,7 @@ Edit menu
     "Shapefile converter", ""
 
 Services menu
-^^^^^^^^^^^^^
+*************
 
 .. csv-table::
     :header: "Menu item", "Description"
@@ -53,7 +53,7 @@ Services menu
     "ESDL merge", ""
 
 View menu
-^^^^^^^^^
+*********
 
 .. csv-table::
     :header: "Menu item", "Description"
