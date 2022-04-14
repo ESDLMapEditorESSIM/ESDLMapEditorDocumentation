@@ -1,13 +1,14 @@
 Connecting assets
 =================
 
-ESDL knows the concept of ports and connections to connect assets. Ports exist in two types (by design, see LINK for
-more detailed information):
+ESDL knows the concept of ports and connections to connect assets. Ports exist in two types (by design, see
+`this article <https://energytransition.gitbook.io/esdl/esdl-concepts/energy-system-structure>`_ for more detailed
+information):
 
 * InPort: port that is mainly used for incoming flow, current or energy
 * OutPort: port that is mainly used for outgoing flow, current or energy
 
-An InPort is visualized as a blue square to the left on an asset, an OutPort is visualized as a red square to the
+An InPort is visualized as a gray square to the left on an asset, an OutPort is visualized as a black square to the
 right of an assets. InPorts can only be connected to OutPorts and the other way around.
 
 The amount and type of ports the MapEditor attaches to an asset when the user adds an asset to the map, depends on the
@@ -83,15 +84,14 @@ There are two ways to connect assets:
 
 Keyboard shortcuts
 ------------------
+There are a few keyboard shortcuts to speed up drawing cables and pipes:
 
-   * There are a few keyboard shortcuts to speed up drawing cables and pipes:
+* Press the Ctrl-key before clicking a port (Ctrl + click), will directly turn on pipe/cable drawing.
+* Press 'c' to draw a cable,
+* Press 'p' to draw a pipe,
+* Press 'a' to draw the last selected asset in the menu bar directly.
 
-     * Press the Ctrl-key before clicking a port (Ctrl + click), will directly turn on pipe/cable drawing.
-     * Press 'c' to draw a cable,
-     * Press 'p' to draw a pipe,
-     * Press 'a' to draw the last selected asset in the menu bar directly.
-
-     Make sure the map has focus to capture these shortcut keys, e.g. by clicking on the map itself first if that is not the case.
+Make sure the map has focus to capture these shortcut keys, e.g. by clicking on the map itself first if that is not the case.
 
 
 

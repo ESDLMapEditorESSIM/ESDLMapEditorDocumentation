@@ -8,7 +8,8 @@ Basic tasks in the ESDL MapEditor
    creating_an_energy_system_description
    adding_assets
    adding_assets_from_the_edr
-   moving_assets
+   editing_asset_properties
+   moving_assets_and_changing_asset_shapes
    removing_assets
    connecting_assets
    removing_a_connection

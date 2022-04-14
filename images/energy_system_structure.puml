@@ -1,0 +1,17 @@
+@startuml
+
+class EnergySystem {
+  **name:** Energy Balance Netherlands
+  **description:** An energy system description\nof the national energy balance for the\nwhole of the Netherlands, split per sector
+}
+class Instance {
+  **name:** Situation 2022
+}
+class Area {
+  **name:** Netherlands
+}
+
+EnergySystem -- Instance
+Instance -- Area
+
+@enduml

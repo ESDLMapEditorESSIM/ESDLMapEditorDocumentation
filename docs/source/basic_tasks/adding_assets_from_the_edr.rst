@@ -22,7 +22,8 @@ The following dialog appears:
 
 The dialog contains two drop down lists. The first one can be used to filter on a specific type of asset. The second
 drop down list actually determines which asset information is loaded from the EDR. Press the 'Select' button to start
-with the process of adding the asset to a specific location. See the :ref:`Adding assets<Adding assets>` section for more information.
+with the process of adding the asset to a specific location. See the
+:ref:`Adding assets, areas and potentials<Adding assets, areas and potentials>` section for more information.
 
   .. image:: images/edr_assets_select_asset.png
     :alt: EDR assets select asset
