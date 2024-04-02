@@ -29,7 +29,7 @@ To choose a heating demand profile of a typical Dutch neighborhood, select *NEDU
    :width: 300
    :alt:
 
-To set the value of 20 kWh demand per year, enter 20 in the *Multiplier* field (nr.1), and choose *Energy in kWh* from the *Quantity and Unit* dropdown menu (nr.2). To save the changes, click the *Add* button (nr.3).
+To set the value of 20 kWh heating demand per year, enter 20 in the *Multiplier* field (nr.1), and choose *Energy in kWh* from the *Quantity and Unit* dropdown menu (nr.2). To save the changes, click the *Add* button (nr.3).
 
 .. image:: images/assigning_profiles4.png
    :width: 300

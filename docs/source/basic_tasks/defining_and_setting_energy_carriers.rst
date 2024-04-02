@@ -32,20 +32,27 @@ Repeat the same process to create Heat commodity.
 Assigning energy commodities to asset connections
 -------------------------------------------------
 
-Energy carriers and commodities created in the previous steps are assigned to connections between ESDL energy assets, i.e. to their In and Out ports. To assign the natural gas commodity to Import asset, right-click on Import and select *Set carrier*.
+Energy carriers and commodities created in the previous steps are assigned to connections between ESDL energy assets, i.e. to their InPorts and OutPorts. To assign the natural gas commodity to Import's OutPort asset, right-click on Import and select *Set carrier*.
 
 .. image:: images/adding_commodities5.png
    :width: 300
    :alt:
 
-A pop-up window opens with a list of created energy commodities (Natural Gas and Electricity, in this example). To assign Natural gas to Import asset, click on Natural Gas in the list of carriers. The window automatically closes, and Natural Gas is assigned to the OutPort of Import, and the InPort of GasHEater, as there already exists a connection between these two ports.
+A pop-up window opens with a list of created energy commodities (Natural Gas and Heat, in this example). To assign Natural Gas to Import asset, click on Natural Gas in the list of carriers. The window automatically closes, and Natural Gas is assigned to the OutPort of Import, and the InPort of GasHeater, as there already exists a connection between these two ports.
 
 .. image:: images/adding_commodities6.png
    :width: 300
    :alt:
 
-The connection between the Import and GasHeater is colored red (the color assigned to Natural Gas commodity), indicating the assigned commodity.
+The connection between the Import and GasHeater is colored in red (the color assigned to Natural Gas commodity), indicating the assigned commodity.
 
 .. image:: images/adding_commodities7.png
+   :width: 300
+   :alt:
+
+Repeat the same process to assign Heat commodity to HeatingDemand. This will assign Heat commodity to HeatingDemand's InPort, and to GasHeater's OutPort.
+Assigned commodities can be seen by clicking on an asset and navigating to the *Ports* group, as shown below for GasHeater.
+
+.. image:: images/adding_commodities8.png
    :width: 300
    :alt:
