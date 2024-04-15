@@ -23,7 +23,7 @@ To upload a custom profile, choose the appropriate access group from the dropdow
 An example CSV file used to create a custom profile is shown below.
 
 .. image:: images/profile_manager4.png
-  :width: 800
+  :width: 300
   :alt:
 
 In this example, a custom profile will be added to a project group (nr.5). Select whether the profile values should be averaged or summed over time (depending on the unit the values represent) (nr.6), and click on *Select files* (nr.7) to select the desired files to be uploaded.
