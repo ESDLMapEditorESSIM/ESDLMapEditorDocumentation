@@ -4,6 +4,7 @@ Profile manager
 In MapEditor, different profiles can be added to energy assets' In and OutPorts. A user can choose a profile from the list of pre-defined EDR or MapEditor's DB profiles (such as standard NEDU profiles), but also define and choose their own profiles. Adding custom profiles, as well as deleting them, is done through the *Profile manager*.
 
 Uploading custom profiles
+-------------------------
 
 To access the *Profile manager*, click on *View* menu item on the menu bar (nr.1), and go to *Settings* (nr.2).
 
@@ -44,6 +45,7 @@ Once a profile is uploaded, it can be added to an asset's port by selecting it f
   :alt:
 
 Deleting profiles
+-----------------
 
 To delete an uploaded file, navigate again to *Profiles plugin* by clicking on *View* menu item on the menu bar (nr.1), and going to *Settings* (nr.2).
 
