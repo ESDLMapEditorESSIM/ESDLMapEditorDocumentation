@@ -23,6 +23,6 @@ Hovering over a note on the map shows the title and the text of a note.
 
 To delete a note from the ESDL, right-click on a note and select *Delete*.
 
-.. image:: images/notes3.png
+.. image:: images/notes4.png
   :width: 300
   :alt:
