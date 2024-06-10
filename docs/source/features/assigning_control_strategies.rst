@@ -1,15 +1,15 @@
 Assigning control strategies
 ============================
 
-Models of (hybrid) energy systems created in MapEditor can be simulated by simulation tools that *speak* ESDL. Different tools simulate energy assets' behaviour (e.g. when and how it consumes of produces energy) in different ways. One way to define such behavior is using *control strategies*. Control strategies are assigned to assets' ports, and are directly related to the type of a port, as well as the type of an asset.
+Models of (hybrid) energy systems created in MapEditor can be analysed using simulation tools that *speak* ESDL. Different tools simulate energy assets' behaviour (e.g. when and how it consumes or produces energy) in different ways. One way to define such a behavior is using *control strategies*. Control strategies are assigned to assets' ports, and are directly related to the type of a port, as well as to the type of an asset.
 
-One of the simulation tools that uses ESDL to calculate energy balance in a system is *ESSIM* (Energy System Simulator). Below is the list of control strategies used by ESSIM to perform its analysis, describing what each strategy is and how to assign it to an asset.
+One of the simulation tools that uses ESDL to calculate energy balances in a system is *ESSIM* (Energy System Simulator). Below is a list of control strategies used by ESSIM to perform its analysis, describing what each strategy is and how to assign it to an asset.
 
 
 DrivenByDemand
 ______________
 
-This control strategy is assigned to producers and to the production side of a conversion. An asset that is assigned this control strategy will produce energy only when there is demand from the assets connected to it. In other words, it will follow the demand of the asset(s) it is connected to.
+This control strategy is assigned to producers and to the production side of a conversion. An asset that is assigned this control strategy will produce energy only when there is demand from assets connected to it. In other words, it will follow the demand of those asset(s).
 
 To assign this control strategy, right-click on an asset and choose *Set Control Strategy*.
 
@@ -17,7 +17,7 @@ To assign this control strategy, right-click on an asset and choose *Set Control
    :width: 300
    :alt:
 
-From the drop-down menu, choose *Driven by demand on OutPort*. This strategy can only be assigned to an OutPort, as it produces when there is demand.
+From the drop-down menu, choose *Driven by demand on OutPort*. This strategy can only be assigned to an OutPort.
 
 .. image:: images/setting_control_strategy1.png
    :width: 300
@@ -32,9 +32,9 @@ Select the OutPort that has to follow the demand (nr.1). In this case, the asset
 DrivenBySupply
 ______________
 
-This control strategy is assigned to consumers and to the consumption side of conversions. An asset that is assigned this strategy will consume energy only when it is produced by the producer(s) connected to the asset.
+This control strategy is assigned to consumers and to the consumption side of conversions. An asset that is assigned this strategy will consume energy only when it is produced by producer(s) connected toit.
 
-To assign this strategy, follow the same steps as above. From the drop-down menu, choose *Driven by supply on InPort*. This strategy can only be assigned to an InPort, as it consumes when there is production.
+To assign this strategy, follow the same steps as above. From the drop-down menu, choose *Driven by supply on InPort*. This strategy can only be assigned to an InPort.
 
 .. image:: images/setting_control_strategy4.png
    :width: 300
@@ -45,14 +45,13 @@ _______________
 
 This control strategy is assigned to assets that have to follow a certain profile. Depending on the port it is assigned to, an asset will produce of consume as much energy as is needed according to the assigned profile.
 
-To assign this strategy, follow the same steps as above. From the drop-down menu, choose *Driven by profile* (nr.1) and select the port to assign in to (nr.2). If profile from a database will be assigned, select *Profile from database* (nr.3), and select the profile from the dropdown menu (nr.4). If a custom profile will manually be added, select *Profile table editor*. Click on *Save* to assign the strategy (nr.5).
-Note that for now, the control strategies window only allows the selection of the profile type, but the multiplier, quantity and unit have to be specified using the ESDL browser.
+To assign this strategy, follow the same steps as above. From the drop-down menu, choose *Driven by profile* (nr.1) and select the port to assign in to (nr.2). If a profile from a database will be assigned, select *Profile from database* (nr.3), and select the profile from the dropdown menu (nr.4). If a custom profile will manually be added, select *Profile table editor*. Click on *Save* to assign the strategy (nr.5).
 
 .. image:: images/setting_control_strategy6.png
    :width: 300
    :alt:
 
-To specify these parameters, go to the ESDL browser of the GasHeater by right-clicking on the GasHeater and selecting *Edit*.
+Note that for now, the control strategies window only allows the selection of the profile type, but the multiplier, and quantity and unit have to be specified using the ESDL browser. To specify these parameters, go to the ESDL browser of the GasHeater by right-clicking on the GasHeater and selecting *Edit*.
 
 .. image:: images/setting_control_strategy81.png
    :width: 300
@@ -70,7 +69,7 @@ Click on the profile name to edit its parameters.
    :width: 300
    :alt:
 
-Edit the desired parameters in the strategy window. For example, change the multiplier (nr.1) and create a quantity and unit for the profile (nr.2).
+Edit the desired parameters in the strategy window. For example, change the multiplier (nr.1), and create a quantity and unit for the profile (nr.2).
 
 .. image:: images/setting_control_strategy88.png
    :width: 300
