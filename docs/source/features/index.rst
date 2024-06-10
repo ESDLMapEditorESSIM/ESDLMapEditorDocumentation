@@ -18,3 +18,4 @@ ESDL MapEditor features
    animation_of_loads
    configuring_external_services
    workflow_definition
+   assigning_control_strategies
